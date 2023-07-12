@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../photo/background.jpg);
+    background-size: cover;
+    height:100vh;
+  
+}
+
+
+@media (max-width: 575.98px) {  body{
+    background-position: right center;
+} }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  body{
+    background-position: right center;
+} }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  body{
+    background-position: right center;
+} }
+
+
+.z{
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    top: -40px;
+    left: 135px;
+}
+
+h2{
+    color: rgb(248, 249, 255);
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 90px;
+    font-size: 35px;
+}
+h2:hover{
+    color: rgb(209, 139, 33);
+
+}
+
+
+.email{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    outline: none;
+    border: none;
+    background: none;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    color: #fff;
+    border-bottom: 2px solid rgb(209, 139, 33);
+}
+
+.pass{
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    outline: none;
+    border: none;
+    background: none;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    color: #fff;
+    border-bottom: 2px solid rgb(209, 139, 33);
+}
+
+.login{
+    position: absolute;
+    top: 305px;
+    left: 90px;
+    width: 180px;
+    height: 50px;
+    background: rgba(209, 139, 33, 0.411);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Quicksand', sans-serif;
+}
+.login:hover{
+    color: rgb(209, 139, 33);
+}
+
+.forget{
+    position: absolute;
+    top: 380px;
+    left: 27px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.forget:hover{
+    color: rgb(230, 151, 33) ;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.781);
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;    font-size: 13px;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 370px;
+    height: 420px;
+    background: rgba(12, 10, 10, 0.5);
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+
+
